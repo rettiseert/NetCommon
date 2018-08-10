@@ -8,5 +8,6 @@ namespace NetCommon
 {
     public class Class1
     {
+		//
     }
 }
