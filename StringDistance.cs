@@ -12,7 +12,7 @@ namespace NetCommon
 		public static double GetDistance(string s1, string s2)
 		{
 			var algorithm = new JaroWinkler();
-			return algorithm.Distance(s1, s2);
+			return algorithm.Distance(s1.ToLower(), s2.ToLower());
 		}
     }
 }
